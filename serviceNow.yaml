@@ -1,0 +1,15 @@
+servicenow:
+  url: 'https://dev277314.service-now.com'
+  table: 'problem'
+
+columns:
+  - number
+  - short_description
+  - description
+  - priority
+  - state
+
+ignoreColumns:
+  - sys_id
+  - sys_created_by
+  - sys_updated_by
